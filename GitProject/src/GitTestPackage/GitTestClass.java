@@ -6,8 +6,13 @@ public class GitTestClass {
 			if("A"=="A") {
 				System.out.println("Print A");
 			}
-			else{
+			else if("B"=="B"){
 				System.out.println("Print B");
 			}
+			else {
+				System.out.println("Print C");
+			}
+			
+			
 		}
 }
